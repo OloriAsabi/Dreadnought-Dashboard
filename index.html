@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dreadnought Dashboard</title>
+</head>
+<body>
+    
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h1>Dreadnought</h1>
+                    <span class="material-symbols-sharp">rocket_launch</span>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+            <!-- links  -->
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">schedule</span>
+                    <h3>Activities</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">class</span>
+                    <h3>My Courses</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">Message</span>
+                    <h3>Messages</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">#</span>
+                    <h3>Trends</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+            </div>
+
+
+        </aside>
+
+        <main>
+            <div class="overview">
+                <div class="progress">
+                    <span class="material-symbols-sharp">hourglass_bottom</span>
+                    <div class="middle">
+                            <h3>Courses in View</h3>
+                            <h1>15</h1>
+                    </div>
+                </div>
+
+                <div class="completed">
+                    <span class="material-symbols-sharp">done</span>
+                    <div class="middle">
+                            <h3>Finished Courses</h3>
+                            <h1>14</h1>
+                    </div>
+                </div>
+
+
+                <div class="earned">
+                    <span class="material-symbols-sharp">school</span>
+                    <div class="middle">
+                            <h3>Certificates</h3>
+                            <h1>11</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="courses">
+                <h2>Your Courses </h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Title</th>
+                            <th>Lesson Completed</th>
+                            <th>Duration</th>
+                            <th>Instructor</th>
+                        </tr>
+                    </thead>
+                    <tbody>       
+                        
+                        <tr>
+                            <td>Responsive Web Design</td>
+                            <td class="lesson-completed"><span class="text-muted">(98%)</span></td>
+                            <td>20h 18m 0s</td>
+                            <td class="instructor">
+                                <img class="profile-photo-1" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/photo_1.jpg" alt="">
+                               Femi Richards
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Data Science</td>
+                            <td class="lesson-completed"><span class="text-muted">(65%)</span></td>
+                            <td>10h 48m 20s</td>
+                            <td class="instructor">
+                                <img class="profile-photo-1" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/fela1.jpg" alt="">
+                                Fela Kuti
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Javascript Algorithms and Data Structures</td>
+                            <td class="lesson-completed"><span class="text-muted">(17%)</span></td>
+                            <td>25h 8m 10s</td>
+                            <td class="instructor">
+                                <img class="profile-photo-1" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/photo_4.jpg" alt="">
+                                Deepak Chopra
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Artificial Intelligence(AI)</td>
+                            <td class="lesson-completed"><span class="text-muted">(35%)</span></td>
+                            <td>18h 20m 10s</td>
+                            <td class="instructor">
+                                <img class="profile-photo-1" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/photo_6.jpg" alt="">
+                                Susan Adebayo
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div> 
+
+            <div class="events">
+            <h1>Upcoming Events</h1>
+            <div class="upcoming">
+                <div class="progress">
+                    <div class="middle">
+                            <h3>Javascript Algorithms and Data Structures</h3>
+                            <p>Learn the Javascript Algorithms and Data Structures</p>
+                            <p>12:00pm - 2:00pm </p>
+                    </div>
+                </div>
+
+                <div class="completed">
+                    <div class="middle">
+                            <h3>Artificial Intelligence(AI)</h3>
+                            <p>Learn the Javascript Algorithms and Data Structures</p>
+                            <p>2:00am - 4:00pm </p>
+                    </div>
+                </div>
+
+
+                <div class="earned">
+                    <div class="middle">
+                            <h3>Computer Science</h3>
+                            <p>Learn the Javascript Algorithms and Data Structures</p>
+                            <p>10:00am - 12:00pm </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="upcoming-tests">
+                <h2>Upcoming Tests</h2>
+                <div class="test">
+                     <div class="ut-info">
+                         <h4>Computer Science</h4>
+                         <div class="test-info">
+                             <span class="test-no text-muted">Test 2</span>
+                             <span class="test-date">3 March</span>
+                         </div>
+                     </div>
+                 </div>
+                <div class="test">
+                     <div class="ut-info">
+                         <h4>Machine Learning</h4>
+                         <div class="test-info">
+                             <span class="test-no text-muted">Test 1</span>
+                             <span class="test-date">19 June</span>
+                         </div>
+                 </div>
+                 </div>
+ 
+            <div class="test">
+                 <div class="ut-info">
+                     <h4>Javascript Algorithms and Data Structures</h4>
+                     <div class="test-info">
+                         <span class="test-no text-muted">Test 3</span>
+                         <span class="test-date">06 Feb</span>
+                     </div>
+                 </div>
+             </div>
+ 
+        <div class="test">
+             <div class="ut-info">
+                 <h4>Data Visualization</h4>
+                 <div class="test-info">
+                     <span class="test-no text-muted">Test 4</span>
+                     <span class="test-date">21 July</span>
+                 </div>
+             </div>
+         </div>
+                
+                <a href="#">See More Upcoming Tests</a>
+             </div>
+
+             <div class="community-groups">
+                <h2>Communities</h2>
+                <div class="com-grp">
+                     <img class="profile-photo" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/images-1.jpg" alt="">
+                     <div>
+                         <h4>Algorithms and Data Structures</h4>
+                         <span class="members text-muted">1K Members</span>
+                     </div>
+                 </div>
+                 <div class="com-grp">
+                     <img class="profile-photo" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/images-2.jpg" alt="">
+                     <div>
+                         <h4>Data Science</h4>
+                         <span class="members text-muted">425K Members</span>
+                     </div>
+                 </div>
+                 <div class="com-grp">
+                     <img class="profile-photo" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/download-1.jpg" alt="">
+                     <div>
+                         <h4>Data Visualization</h4>
+                         <span class="members text-muted">188K Members</span>
+                     </div>
+                 </div>
+                 <a href="#">See All Communities</a>
+             </div>
+        </main>
+        
+
+
+        <section class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <div class="profile">
+                    <span>Olori Asabi</span>
+                    <img class="profile-photo-2" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/me/IMG-4060.JPG" alt="">
+                    <a href="#">
+                        <h3>Logout</h3>
+                    </a>
+                </div>
+            </div>
+
+            <div class="upcoming-tests">
+               <h2>Shared Files</h2>
+               <div class="test">
+                    <span class="primary-bg material-symbols-sharp">folder</span>
+                    <div class="ut-info">
+                        <h4>Computer Science Class5.pdf</h4>
+                        <div class="test-info">
+                            <span class="test-no text-muted">2mb</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="test">
+                <span class="primary-bg material-symbols-sharp">folder</span>
+                    <div class="ut-info">
+                        <h4>Javascript Exam.pdf</h4>
+                        <div class="test-info">
+                            <span class="test-no text-muted">2mb</span>
+                        </div>
+                </div>
+                </div>
+
+           <div class="test">
+            <span class="primary-bg material-symbols-sharp">folder</span>
+                <div class="ut-info">
+                    <h4>AI Test.pdf</h4>
+                        <div class="test-info">
+                            <span class="test-no text-muted">3mb</span>
+                        </div>
+                </div>
+            </div>
+               
+               <a href="#">View  more  shared files</a>
+            </div>
+
+            <div class="shared-media">
+               <h2>Shared Media</h2>
+               <div class="com-grp">
+                    <img class="" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/images-1.jpg" alt="">
+                </div>
+                <div class="com-grp">
+                    <img class="" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/images-2.jpg" alt="">
+                </div>
+                <div class="com-grp">
+                    <img class="" src="https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/download-1.jpg" alt="">
+                </div>
+                <a href="#">See All shared Media</a>
+            </div>
+        </section>
+
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
